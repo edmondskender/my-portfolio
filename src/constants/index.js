@@ -1,8 +1,3 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-
 export const HERO_CONTENT =
 'I am an AI and Data Science student with a passion for developing innovative solutions. With hands-on experience in tools and languages such as C++, Python, PyTorch, PostgreSQL, and React, I have worked on diverse projects ranging from medical image processing to game development, as well as implementing neural networks and machine learning algorithms. My internship at BMW also provided valuable industry experience in predictive maintenance. My goal is to apply my skills to solve real-world challenges and make a meaningful impact.'
 export const ABOUT_TEXT = "Hello! My name is Edmond Skender, and I am currently pursuing a Bachelor's degree in Artificial Intelligence and Data Science at OTH Regensburg. Throughout my studies, I have developed a strong foundation in programming languages such as C, C++, and Python, as well as expertise in modern tools and technologies like React, PostgreSQL, Splunk, and machine learning frameworks such as PyTorch.\n" +
@@ -44,42 +39,36 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Deep Learning",
-    image: project1,
     description:
       "Developed a neural network using TensorFlow, following the Wide & Deep architecture, to predict market prices at the EPEX Spot Exchange (European Power Exchange). Achieved a prediction accuracy of 95%, demonstrating a high level of precision in forecasting energy market trends.",
     technologies: ["TensorFlow", "Python", "Neuronal Networks", "Data Science"],
   },
   {
     title: "Game Development",
-    image: project2,
     description:
       "Developed a version of the popular game Flappy Bird using Python, implementing game mechanics, player controls, and visual elements. The project involved building the gameplay logic, handling user input, and creating animations for a smooth gaming experience.",
     technologies: ["Python", "Pygame", "2D Game"],
   },
   {
     title: "Image Processing Class",
-    image: project3,
     description:
       "Implemented a C++ image processing class capable of converting images to grayscale, showcasing a foundational approach to handling and manipulating image data efficiently.",
     technologies: ["C++"],
   },
   {
     title: "Computer Vision Research Project",
-    image: project4,
     description:
       "Developed a computer vision model for real-time detection and visualization of critical structures in medical images at the University Hospital of Regensburg, enhancing surgical assistance through advanced image recognition.",
     technologies: ["YOLO", "OpenCV", "Python", "CNN", "Deep Learning"],
   },
   {
     title: "Weather App Website",
-    image: project4,
     description:
         "Designed and developed a weather app website where users can register, log in, and add weather stations to a personalized dashboard, with the stations displayed on an interactive map, providing real-time weather updates.",
     technologies: ["Node.js", "Bootstrap", "Postgresql", "Handlebars", "Javascript"],
   },
   {
     title: "Portfolio Website Development",
-    image: project4,
     description:
         "Developed a dynamic and responsive portfolio website using React.",
     technologies: ["React", "Tailwindcss", "Framer Motion"],
