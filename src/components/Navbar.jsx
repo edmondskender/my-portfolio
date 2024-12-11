@@ -12,7 +12,7 @@ const Navbar = () => {
                     onHoverStart={e => {}}
                     onHoverEnd={e => {}}
                     whileTap={{ scale: 0.9 }}
-                    href="https://www.linkedin.com/in/edmond-skender-635807223/?originalSubdomain=de"
+                    href="http://www.linkedin.com/in/edmond-skender-635807223"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
